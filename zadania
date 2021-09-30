@@ -1,0 +1,63 @@
+using System;
+
+namespace ConsoleApp3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i, n, m, j;
+            char smv = 'd';
+            Console.WriteLine("Задание 1:\n");
+            for (i = 20; i <= 70; i = i + 4)
+            {
+                Console.WriteLine(i + " ");
+            }
+
+            Console.WriteLine("Задание 2:\n");
+            n = 0;
+            while (n <= 6)
+            {
+                n += 1;
+                Console.Write(smv + " ");
+                smv++;
+            }
+            Console.WriteLine("\n\nЗадание 3\n");
+            n = 3;
+            m = 4;
+            for (n = 0; n <= 3; n++)
+            {
+                for (m = 0; m <= 4; m++)
+                {
+                    Console.Write("#");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine("\nЗадание 4:\n");
+            for (i = 0; i <= 100; i++)
+            {
+                if (i == 0) continue;
+                if ((i % 10)!= 0) continue;
+            Console.WriteLine(i + " ");
+            }
+            Console.WriteLine("\nЗадание5:\n");
+            i = 4;
+            j = 40;
+            for (i = 4, j = 40; j - i > 25; i++, j--)
+            {
+                Console.WriteLine("i и j равны: " + i + " и " + j);
+}   }   }   }
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
